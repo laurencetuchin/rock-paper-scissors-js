@@ -14,7 +14,7 @@ function getRandomInt() {
 let computerChoice = getComputerChoice();
 
 // random number to decide
-let playerChoice = prompt("Rock, Paper or Scissors?");
+// let playerChoice = prompt("Rock, Paper or Scissors?");
 // playerChoice;
 // player choice helper function
 function getPlayerChoice(playerChoice) {
