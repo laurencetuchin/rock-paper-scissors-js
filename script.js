@@ -102,19 +102,17 @@ function playRPS(playerChoice, computerChoice) {
 function game() {
 	// playRPS(playerChoice, computerChoice);
 
-	for (let i = 0; i < 5; i++) {
-		// reset();
+	// reset();
 
-		console.log(playRPS(playerChoice, computerChoice));
-		playerChoice = reset();
-		computerChoice = getComputerChoice();
+	console.log(playRPS(playerChoice, computerChoice));
+	playerChoice = reset();
+	computerChoice = getComputerChoice();
 
-		if (playerScore >= 3) {
-			console.log("Player 1 Wins");
-		}
-		if (computerScore >= 3) {
-			console.log("Computer wins");
-		}
+	if (playerScore >= 3) {
+		console.log("Player 1 Wins");
+	}
+	if (computerScore >= 3) {
+		console.log("Computer wins");
 	}
 }
 game();
