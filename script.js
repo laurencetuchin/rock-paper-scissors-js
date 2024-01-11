@@ -115,7 +115,6 @@ function game() {
 		console.log("Computer wins");
 	}
 }
-game();
 
 // function game(playRPS) {}
 
