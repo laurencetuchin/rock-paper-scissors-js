@@ -1,0 +1,35 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.option-selection {
+	display: flex;
+	/* justify-content: space; */
+	align-items: center;
+	gap: 8px;
+}
+
+.option {
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	height: 100px;
+}
+
+.game-result-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.play-game {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
