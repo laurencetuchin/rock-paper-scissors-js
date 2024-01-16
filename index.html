@@ -4,8 +4,24 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>RPS game</title>
-		<script src="script.js"></script>
+		<script defer src="script.js"></script>
 		<link rel="stylesheet" href="main.css" />
 	</head>
-	<body></body>
+	<body>
+		<div class="play-game">
+			<h2>Play game</h2>
+			<p>Can you beat the computer?</p>
+			<p>Choose: Rock, Paper or Scissors</p>
+			<div class="option-selection">
+				<button class="option" value="Rock">Rock</button>
+				<button class="option" value="Paper">Paper</button>
+				<button class="option" value="Scissors">Scissors</button>
+			</div>
+			<div class="game-result-container">
+				<p class="game-result"></p>
+				<p class="game-score"></p>
+				<button class="restart-game" style="display: none">Restart game</button>
+			</div>
+		</div>
+	</body>
 </html>
